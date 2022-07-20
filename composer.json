@@ -45,12 +45,12 @@
         "devanime/devanime": "dev-master",
         "devanime/cms-page-order": "dev-master",
         "devanime/gravityforms": "dev-master",
-        "devanime/black-sword-shusui": "dev-master",
         "devanime/dio-brando": "dev-master",
         "devanime/satoru-gojo": "dev-master",
         "devanime/eren-yeagar": "dev-master",
         "devanime/estarossa": "dev-master",
         "devanime/roronoa-zoro": "dev-master",
+        "devanime/black-sword-shusui": "dev-master",
         "devanime/wordpress-seo-premium": "dev-master",
         "devanime/wp-image": "dev-master",
         "wp-media/wp-rocket": "*",
@@ -88,17 +88,9 @@
             "cd wp-content/plugins/estarossa && make",
             "yarn platform-reset && yarn develop"
         ],
-        "build-zoro-roranoa": [
-            "cd wp-content/plugins/zoro-roranoa && make",
+        "build-roronoa-zoro": [
+            "cd wp-content/plugins/roronoa-zoro && make",
             "yarn platform-reset && yarn develop"
-        ],
-        "test:setup": "docker-run-mysql",
-        "test:watch": "phpunit-watcher watch < /dev/tty",
-        "test:teardown": "docker-stop-mysql",
-        "test": [
-            "@test:setup",
-            "@test:watch",
-            "@test:teardown"
         ]
     }
 }
