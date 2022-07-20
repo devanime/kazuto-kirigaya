@@ -1,6 +1,6 @@
 {
     "name": "devanime/kirito-kirigaya",
-    "description": "Default framework for new WordPress sites. Remove and add packages as needed, all devanime-authored themes and plugins are provided initially.",
+    "description": "The \"skeleton\" framework to kickstart all new builds.",
     "authors": [
         {
             "name": "DevAnime",
