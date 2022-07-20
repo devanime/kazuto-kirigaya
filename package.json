@@ -1,0 +1,39 @@
+{
+    "name": "giorno-giovanna",
+    "version": "1.0.0",
+    "author": "DevAnime <devanimecards@gmail.com>",
+    "contributors": [
+        "DevAnime <devanimecards@gmail.com>"
+    ],
+    "homepage": "https://www.devanimecards.io",
+    "private": true,
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://opensource.org/licenses/MIT"
+        }
+    ],
+    "scripts": {
+        "develop": "webpack --env.NODE_ENV=development",
+        "production": "webpack --env.NODE_ENV=production",
+        "watch": "yarn develop --watch",
+        "platform-reset": "rm -rf node_modules/@devanime && yarn install --check-files"
+    },
+    "dependencies": {
+        "@devanime/estarossa.video": "file:./wp-content/plugins/estarossa/video",
+        "@devanime/dio-brando": "./wp-content/themes/dio-brando"
+    },
+    "devDependencies": {
+        "@devanime/eslint-config": "file:./wp-content/vendor/devanime/scripts/eslint-config",
+        "@devanime/webpack": "file:./wp-content/vendor/devanime/scripts/webpack"
+    },
+    "theme": {
+        "directory": "./wp-content/themes/giorno-giovanna",
+        "localUrl": "{local_url}"
+    },
+    "eslintConfig": {
+        "extends": [
+            "@devanime/eslint-config"
+        ]
+    }
+}

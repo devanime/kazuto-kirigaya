@@ -1,0 +1,104 @@
+{
+    "name": "devanime/kirito-kirigaya",
+    "description": "Default framework for new WordPress sites. Remove and add packages as needed, all devanime-authored themes and plugins are provided initially.",
+    "authors": [
+        {
+            "name": "DevAnime",
+            "email": "devanimecards@gmail.com",
+            "homepage": "https://www.devanimecards.io"
+        }
+    ],
+    "type": "project",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        },
+        {
+            "type": "composer",
+            "url": "https://packages.devanimecards.io"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/tabrisrp/wp-background-processing"
+        }
+    ],
+    "config": {
+        "vendor-dir": "wp-content/vendor",
+        "sort-packages": true,
+        "optimize-autoloader": true,
+        "allow-plugins": {
+            "johnpbloch/wordpress-core-installer": true,
+            "composer/installers": true
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Theme\\": "wp-content/themes/dio-brando/lib",
+            "ChildTheme\\": "wp-content/themes/giorno-giovanna/lib"
+        }
+    },
+    "require": {
+        "johnpbloch/wordpress": "*",
+        "roots/soil": "*",
+        "devanime/advanced-custom-fields-pro": "dev-master",
+        "devanime/devanime": "dev-master",
+        "devanime/cms-page-order": "dev-master",
+        "devanime/gravityforms": "dev-master",
+        "devanime/black-sword-shusui": "dev-master",
+        "devanime/dio-brando": "dev-master",
+        "devanime/satoru-gojo": "dev-master",
+        "devanime/eren-yeagar": "dev-master",
+        "devanime/estarossa": "dev-master",
+        "devanime/roronoa-zoro": "dev-master",
+        "devanime/wordpress-seo-premium": "dev-master",
+        "devanime/wp-image": "dev-master",
+        "wp-media/wp-rocket": "*",
+        "wp-sync-db/wp-sync-db": "dev-master",
+        "wp-sync-db/wp-sync-db-media-files": "dev-master",
+        "wpackagist-plugin/bu-versions": "*",
+        "wpackagist-plugin/classic-editor": "*",
+        "wpackagist-plugin/duplicate-post": "*",
+        "wpackagist-plugin/imagify": "*",
+        "wpackagist-plugin/public-post-preview": "*",
+        "wpackagist-plugin/redis-cache": "*",
+        "wpackagist-plugin/stream": "*"
+    },
+    "require-dev": {
+        "kint-php/kint": "^2.0",
+        "wp-sync-db/wp-sync-db-cli": "dev-master",
+        "devanime/giorno-giovanna": "dev-master"
+    },
+    "extra": {
+        "wordpress-install-dir": "wp",
+        "kint": {
+            "disable-helper-functions": true
+        }
+    },
+    "scripts": {
+        "production": [
+            "composer install -o --no-dev",
+            "yarn && yarn production"
+        ],
+        "develop": [
+            "composer install -o --prefer-source",
+            "yarn platform-reset && yarn develop"
+        ],
+        "build-estarossa": [
+            "cd wp-content/plugins/estarossa && make",
+            "yarn platform-reset && yarn develop"
+        ],
+        "build-zoro-roranoa": [
+            "cd wp-content/plugins/zoro-roranoa && make",
+            "yarn platform-reset && yarn develop"
+        ],
+        "test:setup": "docker-run-mysql",
+        "test:watch": "phpunit-watcher watch < /dev/tty",
+        "test:teardown": "docker-stop-mysql",
+        "test": [
+            "@test:setup",
+            "@test:watch",
+            "@test:teardown"
+        ]
+    }
+}

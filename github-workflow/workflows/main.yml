@@ -1,0 +1,27 @@
+name: Build/Deploy
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+      - develop
+
+jobs:
+  build:
+    runs-on: self-hosted
+    container:
+      image: devanime/github-runner:stable
+      options: --user github:github
+      volumes:
+        - /var/www/vhosts/runner.devanime.dev/.ssh:/home/github/.ssh
+        - /var/www/vhosts/runner.devanime.dev/.runner-composer:/github/home/.composer/cache
+        - /var/www/vhosts/runner.devanime.dev/.runner-cache:/github/home/.cache
+        - /var/www/vhosts/runner.devanime.dev/.runner-support:/.support
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Build
+        run: /.support/bootstrap.sh
+        shell: bash
+      
