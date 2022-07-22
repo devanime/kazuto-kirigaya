@@ -43,7 +43,7 @@ DB_USER=${DB_USER:-root}
 read -p "Default local db password: [root] " DB_PASSWORD
 DB_PASSWORD=${DB_PASSWORD:-root}
 
-php init-replace.php devanime/kirito-kirigaya $PACKAGE_NAME composer.json
+php init-replace.php devanime/kazuto-kirigaya $PACKAGE_NAME composer.json
 php init-replace.php {db_name} $DB_NAME {db_user} $DB_USER {db_password} $DB_PASSWORD local-config-sample.php
 php init-replace.php {theme-name} $THEME README.md
 

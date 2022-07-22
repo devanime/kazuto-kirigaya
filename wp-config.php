@@ -18,8 +18,8 @@ if (file_exists(__DIR__ . '/local-config.php')) {
 // ===================================================
 // Initialize DevAnime defaults
 // ===================================================
-if (class_exists('\VincentRagosta\WPConfig')) {
-    new \VincentRagosta\WPConfig(__DIR__);
+if (class_exists('\DevAnime\WPConfig')) {
+    new \DevAnime\WPConfig(__DIR__);
 }
 
 // ================================================

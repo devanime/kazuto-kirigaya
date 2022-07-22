@@ -1,5 +1,5 @@
 {
-    "name": "devanime/kirito-kirigaya",
+    "name": "devanime/kazuto-kirigaya",
     "description": "The \"skeleton\" framework to kickstart all new builds.",
     "authors": [
         {
@@ -17,10 +17,6 @@
         {
             "type": "composer",
             "url": "https://packages.devanimecards.io"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/tabrisrp/wp-background-processing"
         }
     ],
     "config": {
