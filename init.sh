@@ -79,7 +79,7 @@ rm -rf .git
 git init
 git add -A .
 git reset init.sh init-replace.php
-git commit -am "Giorno Giovanna configured"
+git commit -am "you are ready to start your adventure"
 if [[ ! GIT_REPO -eq "" ]]
 then
     git remote add origin $GIT_REPO
