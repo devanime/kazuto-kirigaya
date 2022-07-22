@@ -24,8 +24,8 @@
         "@devanime/dio-brando": "./wp-content/themes/dio-brando"
     },
     "devDependencies": {
-        "@devanime/eslint-config": "file:./wp-content/vendor/devanime/scripts/eslint-config",
-        "@devanime/webpack": "file:./wp-content/vendor/devanime/scripts/webpack"
+        "@devanime/eslint-config": "file:./wp-content/vendor/devanime/eren-yeager/eslint-config",
+        "@devanime/webpack": "file:./wp-content/vendor/devanime/eren-yeager/webpack"
     },
     "theme": {
         "directory": "./wp-content/themes/giorno-giovanna",
