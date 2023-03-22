@@ -1,0 +1,1519 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "bcfedef39d4aa5adf5ed80649ee15dc5",
+    "packages": [
+        {
+            "name": "composer/installers",
+            "version": "v1.0.21",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "d64e23fce42a4063d63262b19b8e7c0f3b5e4c45"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/d64e23fce42a4063d63262b19b8e7c0f3b5e4c45",
+                "reference": "d64e23fce42a4063d63262b19b8e7c0f3b5e4c45",
+                "shasum": ""
+            },
+            "replace": {
+                "roundcube/plugin-installer": "*",
+                "shama/baton": "*"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev",
+                "phpunit/phpunit": "4.1.*"
+            },
+            "type": "composer-installer",
+            "extra": {
+                "class": "Composer\\Installers\\Installer",
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Composer\\Installers\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "http://composer.github.com/installers/",
+            "keywords": [
+                "Craft",
+                "Dolibarr",
+                "Hurad",
+                "MODX Evo",
+                "OXID",
+                "SMF",
+                "Thelia",
+                "WolfCMS",
+                "agl",
+                "aimeos",
+                "annotatecms",
+                "bitrix",
+                "cakephp",
+                "chef",
+                "codeigniter",
+                "concrete5",
+                "croogo",
+                "dokuwiki",
+                "drupal",
+                "elgg",
+                "fuelphp",
+                "grav",
+                "installer",
+                "joomla",
+                "kohana",
+                "laravel",
+                "lithium",
+                "magento",
+                "mako",
+                "mediawiki",
+                "modulework",
+                "moodle",
+                "phpbb",
+                "piwik",
+                "ppi",
+                "puppet",
+                "roundcube",
+                "shopware",
+                "silverstripe",
+                "symfony",
+                "typo3",
+                "wordpress",
+                "zend",
+                "zikula"
+            ],
+            "support": {
+                "issues": "https://github.com/composer/installers/issues",
+                "source": "https://github.com/composer/installers/tree/master"
+            },
+            "time": "2015-02-18T17:17:01+00:00"
+        },
+        {
+            "name": "deliciousbrains/wp-background-processing",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/deliciousbrains/wp-background-processing.git",
+                "reference": "2cbee1abd1b49e1133cd8f611df4d4fc5a8b9800"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/deliciousbrains/wp-background-processing/zipball/2cbee1abd1b49e1133cd8f611df4d4fc5a8b9800",
+                "reference": "2cbee1abd1b49e1133cd8f611df4d4fc5a8b9800",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "suggest": {
+                "coenjacobs/mozart": "Easily wrap this library with your own prefix, to prevent collisions when multiple plugins use this library"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "classes/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Delicious Brains",
+                    "email": "nom@deliciousbrains.com"
+                }
+            ],
+            "description": "WP Background Processing can be used to fire off non-blocking asynchronous requests or as a background processing tool, allowing you to queue tasks.",
+            "support": {
+                "issues": "https://github.com/deliciousbrains/wp-background-processing/issues",
+                "source": "https://github.com/deliciousbrains/wp-background-processing/tree/1.0.2"
+            },
+            "time": "2020-07-31T07:00:11+00:00"
+        },
+        {
+            "name": "devanime/advanced-custom-fields-pro",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:devanime/advanced-custom-fields-pro.git",
+                "reference": "0a6f636e6311c25a1417dbbf2be636284ce0a542"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/devanime/advanced-custom-fields-pro/zipball/0a6f636e6311c25a1417dbbf2be636284ce0a542",
+                "reference": "0a6f636e6311c25a1417dbbf2be636284ce0a542",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.3"
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "Meta box creation and storage for all website builds.",
+            "support": {
+                "source": "https://github.com/devanime/advanced-custom-fields-pro/tree/develop",
+                "issues": "https://github.com/devanime/advanced-custom-fields-pro/issues"
+            },
+            "time": "2022-07-21T03:43:45+00:00"
+        },
+        {
+            "name": "devanime/cms-page-order",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:devanime/cms-page-order.git",
+                "reference": "6c5f0c2d6c8caeb2bbfa4de2c49997b7c7427a1a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/devanime/cms-page-order/zipball/6c5f0c2d6c8caeb2bbfa4de2c49997b7c7427a1a",
+                "reference": "6c5f0c2d6c8caeb2bbfa4de2c49997b7c7427a1a",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0"
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "description": "Custom post type menu sort ordering, used accordingly on all websites.",
+            "support": {
+                "source": "https://github.com/devanime/cms-page-order/tree/develop",
+                "issues": "https://github.com/devanime/cms-page-order/issues"
+            },
+            "time": "2022-07-21T03:51:03+00:00"
+        },
+        {
+            "name": "devanime/devanime",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:devanime/devanime.git",
+                "reference": "2259420e8d9ab0c538d4441fc08207b4b69fc636"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/devanime/devanime/zipball/2259420e8d9ab0c538d4441fc08207b4b69fc636",
+                "reference": "2259420e8d9ab0c538d4441fc08207b4b69fc636",
+                "shasum": ""
+            },
+            "require": {
+                "deliciousbrains/wp-background-processing": "*",
+                "php": "^7.0"
+            },
+            "require-dev": {
+                "devanime/advanced-custom-fields-pro": "dev-master",
+                "devanime/scripts": "dev-master"
+            },
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "DevAnime\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "DevAnime",
+                    "email": "devanimecards@gmail.com"
+                }
+            ],
+            "description": "The backend infrastructure used as the \"build base\" for all new projects.",
+            "support": {
+                "source": "https://github.com/devanime/devanime/tree/develop",
+                "issues": "https://github.com/devanime/devanime/issues"
+            },
+            "time": "2022-07-31T15:53:57+00:00"
+        },
+        {
+            "name": "devanime/dio-brando",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:devanime/dio-brando.git",
+                "reference": "ddf803b59c9fe2b185cb4a5d59c07f0868d2e92a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/devanime/dio-brando/zipball/ddf803b59c9fe2b185cb4a5d59c07f0868d2e92a",
+                "reference": "ddf803b59c9fe2b185cb4a5d59c07f0868d2e92a",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=7.2"
+            },
+            "type": "wordpress-theme",
+            "autoload": {
+                "psr-4": {
+                    "DioBrando\\": "lib/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "DevAnime",
+                    "email": "devanimecards@gmail.com",
+                    "homepage": "https://www.devanimecards.io"
+                },
+                {
+                    "name": "DevAnime",
+                    "email": "devanimecards@gmail.com",
+                    "homepage": "https://www.devanimecards.io"
+                }
+            ],
+            "description": "The parent theme used to start all new website builds.",
+            "support": {
+                "source": "https://github.com/devanime/dio-brando/tree/develop",
+                "issues": "https://github.com/devanime/dio-brando/issues"
+            },
+            "time": "2022-07-23T16:51:42+00:00"
+        },
+        {
+            "name": "devanime/eren-yeager",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:devanime/eren-yeager.git",
+                "reference": "7224ac6914a7fd91f101a6d8031574fdf4588bfd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/devanime/eren-yeager/zipball/7224ac6914a7fd91f101a6d8031574fdf4588bfd",
+                "reference": "7224ac6914a7fd91f101a6d8031574fdf4588bfd",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "bin": [
+                "docker/test/docker-run-mysql",
+                "docker/test/docker-stop-mysql"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "DevAnime\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "DevAnime",
+                    "email": "devanimecards@gmail.com"
+                }
+            ],
+            "description": "About\nBuild and configuration scripts that are required for all website builds.",
+            "support": {
+                "source": "https://github.com/devanime/eren-yeager/tree/develop",
+                "issues": "https://github.com/devanime/eren-yeager/issues"
+            },
+            "time": "2022-07-22T07:18:48+00:00"
+        },
+        {
+            "name": "devanime/estarossa",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:devanime/estarossa.git",
+                "reference": "a5c85e6954437741946422811b18572506f8059f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/devanime/estarossa/zipball/a5c85e6954437741946422811b18572506f8059f",
+                "reference": "a5c85e6954437741946422811b18572506f8059f",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0"
+            },
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "DevAnime\\Estarossa\\Modal\\": "modal/php",
+                    "DevAnime\\Estarossa\\NavMenu\\": "nav-menu/php",
+                    "DevAnime\\Estarossa\\LazyImage\\": "lazy-image/php",
+                    "DevAnime\\Estarossa\\TagManager\\": "tag-manager/php",
+                    "DevAnime\\Estarossa\\SubNav\\": "sub-nav/php",
+                    "DevAnime\\Estarossa\\MediaCarousel\\": "media-carousel/php",
+                    "DevAnime\\Estarossa\\Icon\\": "icon/php",
+                    "DevAnime\\Estarossa\\ImageCaption\\": "image-caption/php",
+                    "DevAnime\\Estarossa\\Message\\": "message/php",
+                    "DevAnime\\Estarossa\\Tour\\": "tour/php",
+                    "DevAnime\\Estarossa\\ContentBlock\\": "content-block/php",
+                    "DevAnime\\Estarossa\\SocialIcons\\": "social-icons/php",
+                    "DevAnime\\Estarossa\\ResponsivePicture\\": "responsive-picture/php",
+                    "DevAnime\\Estarossa\\CalendarContainer\\": "calendar-container/php",
+                    "DevAnime\\Estarossa\\Talent\\": "talent/php",
+                    "DevAnime\\Estarossa\\Video\\": "video/php",
+                    "DevAnime\\Estarossa\\ReadMore\\": "read-more/php",
+                    "DevAnime\\Estarossa\\Accordion\\": "accordion/php",
+                    "DevAnime\\Estarossa\\Filters\\": "filters/php",
+                    "DevAnime\\Estarossa\\FAQ\\": "faq/php",
+                    "DevAnime\\Estarossa\\ContentSlider\\": "content-slider/php",
+                    "DevAnime\\Estarossa\\Schema\\": "schema/php",
+                    "DevAnime\\Estarossa\\Admin\\": "admin/php"
+                },
+                "files": [
+                    "tag-manager/php/functions.php"
+                ]
+            },
+            "authors": [
+                {
+                    "name": "DevAnime",
+                    "email": "devanimecards@gmail.com"
+                }
+            ],
+            "description": "About The frontend library of reusable components for all website builds.",
+            "support": {
+                "source": "https://github.com/devanime/estarossa/tree/develop",
+                "issues": "https://github.com/devanime/estarossa/issues"
+            },
+            "time": "2022-08-16T21:58:46+00:00"
+        },
+        {
+            "name": "devanime/gravityforms",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:devanime/gravity-forms.git",
+                "reference": "c1cffb695f6c862705dab8a4d77b8e61d9c9f04a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/devanime/gravity-forms/zipball/c1cffb695f6c862705dab8a4d77b8e61d9c9f04a",
+                "reference": "c1cffb695f6c862705dab8a4d77b8e61d9c9f04a",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.3"
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "Form builder and management for all websites.",
+            "support": {
+                "source": "https://github.com/devanime/gravity-forms/tree/develop",
+                "issues": "https://github.com/devanime/gravity-forms/issues"
+            },
+            "time": "2022-07-21T03:48:15+00:00"
+        },
+        {
+            "name": "devanime/monkey-d-luffy",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:devanime/monkey-d-luffy.git",
+                "reference": "52389367697a37413c55c090a5f33c1c75727951"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/devanime/monkey-d-luffy/zipball/52389367697a37413c55c090a5f33c1c75727951",
+                "reference": "52389367697a37413c55c090a5f33c1c75727951",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.4"
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "The custom build over Visual Composer, this is used on all web projects.",
+            "support": {
+                "source": "https://github.com/devanime/monkey-d-luffy/tree/develop",
+                "issues": "https://github.com/devanime/monkey-d-luffy/issues"
+            },
+            "time": "2022-07-21T00:24:35+00:00"
+        },
+        {
+            "name": "devanime/roronoa-zoro",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:devanime/roronoa-zoro.git",
+                "reference": "812756a267cf9d70a7a1f4b79ae61d360600d795"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/devanime/roronoa-zoro/zipball/812756a267cf9d70a7a1f4b79ae61d360600d795",
+                "reference": "812756a267cf9d70a7a1f4b79ae61d360600d795",
+                "shasum": ""
+            },
+            "require": {
+                "devanime/estarossa": "*",
+                "devanime/monkey-d-luffy": "*",
+                "devanime/satoru-gojo": "*",
+                "php": "^7.0"
+            },
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "DevAnime\\RoronoaZoro\\": "src"
+                },
+                "files": [
+                    "src/functions.php"
+                ]
+            },
+            "authors": [
+                {
+                    "name": "DevAnime",
+                    "email": "devanimecards@gmail.com"
+                }
+            ],
+            "description": "A custom build over Visual Composer, this is the page-builder CMS experience.",
+            "support": {
+                "source": "https://github.com/devanime/roronoa-zoro/tree/develop",
+                "issues": "https://github.com/devanime/roronoa-zoro/issues"
+            },
+            "time": "2022-07-22T22:08:11+00:00"
+        },
+        {
+            "name": "devanime/satoru-gojo",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:devanime/satoru-gojo.git",
+                "reference": "f15471694aa5dca5699b8d2437b34959bbb0436a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/devanime/satoru-gojo/zipball/f15471694aa5dca5699b8d2437b34959bbb0436a",
+                "reference": "f15471694aa5dca5699b8d2437b34959bbb0436a",
+                "shasum": ""
+            },
+            "require": {
+                "devanime/devanime": "*",
+                "madcoda/php-youtube-api": "*",
+                "php": "^7.0",
+                "vimeo/vimeo-api": "2.*"
+            },
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "DevAnime\\SatoruGojo\\": "src"
+                }
+            },
+            "authors": [
+                {
+                    "name": "DevAnime",
+                    "email": "devanimecards@gmail.com"
+                }
+            ],
+            "description": "Various supporting backend infrastructure that can be used accordingly for website builds.",
+            "support": {
+                "source": "https://github.com/devanime/satoru-gojo/tree/develop",
+                "issues": "https://github.com/devanime/satoru-gojo/issues"
+            },
+            "time": "2022-07-20T18:19:59+00:00"
+        },
+        {
+            "name": "devanime/wordpress-seo-premium",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:devanime/wordpress-seo-premium.git",
+                "reference": "7cd3263ee1ecb38ba36d61b15d2061b9653c65ba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/devanime/wordpress-seo-premium/zipball/7cd3263ee1ecb38ba36d61b15d2061b9653c65ba",
+                "reference": "7cd3263ee1ecb38ba36d61b15d2061b9653c65ba",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.4"
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "Wordpress Premium SEO for all website builds.",
+            "support": {
+                "source": "https://github.com/devanime/wordpress-seo-premium/tree/develop",
+                "issues": "https://github.com/devanime/wordpress-seo-premium/issues"
+            },
+            "time": "2022-07-21T03:37:46+00:00"
+        },
+        {
+            "name": "devanime/wp-image",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:devanime/wp-image.git",
+                "reference": "fa7d0b9738fe556a390dc27ff7d32018fdf4cf94"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/devanime/wp-image/zipball/fa7d0b9738fe556a390dc27ff7d32018fdf4cf94",
+                "reference": "fa7d0b9738fe556a390dc27ff7d32018fdf4cf94",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0"
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "WP_Image\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "DevAnime",
+                    "email": "devanimecards@gmail.com"
+                }
+            ],
+            "description": "The \"missing\" Wordpress Image object, used on all web projects.",
+            "support": {
+                "source": "https://github.com/devanime/wp-image/tree/master",
+                "issues": "https://github.com/devanime/wp-image/issues"
+            },
+            "time": "2022-07-22T07:07:30+00:00"
+        },
+        {
+            "name": "johnpbloch/wordpress",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/johnpbloch/wordpress.git",
+                "reference": "791215d9f8fb9b8c9949f3993d01c25ebf2a84e1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/791215d9f8fb9b8c9949f3993d01c25ebf2a84e1",
+                "reference": "791215d9f8fb9b8c9949f3993d01c25ebf2a84e1",
+                "shasum": ""
+            },
+            "require": {
+                "johnpbloch/wordpress-core": "dev-master",
+                "johnpbloch/wordpress-core-installer": "^1.0 || ^2.0",
+                "php": ">=5.6.20"
+            },
+            "default-branch": true,
+            "type": "package",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "WordPress Community",
+                    "homepage": "https://wordpress.org/about/"
+                }
+            ],
+            "description": "WordPress is open source software you can use to create a beautiful website, blog, or app.",
+            "homepage": "https://wordpress.org/",
+            "keywords": [
+                "blog",
+                "cms",
+                "wordpress"
+            ],
+            "support": {
+                "docs": "https://developer.wordpress.org/",
+                "forum": "https://wordpress.org/support/",
+                "irc": "irc://irc.freenode.net/wordpress",
+                "issues": "https://core.trac.wordpress.org/",
+                "source": "https://core.trac.wordpress.org/browser"
+            },
+            "time": "2022-03-01T15:13:50+00:00"
+        },
+        {
+            "name": "johnpbloch/wordpress-core",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/johnpbloch/wordpress-core.git",
+                "reference": "13128e8c19640e1e591e02c1686a26431cb43714"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/13128e8c19640e1e591e02c1686a26431cb43714",
+                "reference": "13128e8c19640e1e591e02c1686a26431cb43714",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=5.6.20"
+            },
+            "provide": {
+                "wordpress/core-implementation": "dev-master"
+            },
+            "default-branch": true,
+            "type": "wordpress-core",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "WordPress Community",
+                    "homepage": "https://wordpress.org/about/"
+                }
+            ],
+            "description": "WordPress is open source software you can use to create a beautiful website, blog, or app.",
+            "homepage": "https://wordpress.org/",
+            "keywords": [
+                "blog",
+                "cms",
+                "wordpress"
+            ],
+            "support": {
+                "forum": "https://wordpress.org/support/",
+                "irc": "irc://irc.freenode.net/wordpress",
+                "issues": "https://core.trac.wordpress.org/",
+                "source": "https://core.trac.wordpress.org/browser",
+                "wiki": "https://codex.wordpress.org/"
+            },
+            "time": "2023-03-14T17:16:49+00:00"
+        },
+        {
+            "name": "johnpbloch/wordpress-core-installer",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/johnpbloch/wordpress-core-installer.git",
+                "reference": "237faae9a60a4a2e1d45dce1a5836ffa616de63e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core-installer/zipball/237faae9a60a4a2e1d45dce1a5836ffa616de63e",
+                "reference": "237faae9a60a4a2e1d45dce1a5836ffa616de63e",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0 || ^2.0",
+                "php": ">=5.6.0"
+            },
+            "conflict": {
+                "composer/installers": "<1.0.6"
+            },
+            "require-dev": {
+                "composer/composer": "^1.0 || ^2.0",
+                "phpunit/phpunit": ">=5.7.27"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "johnpbloch\\Composer\\WordPressCorePlugin"
+            },
+            "autoload": {
+                "psr-0": {
+                    "johnpbloch\\Composer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "John P. Bloch",
+                    "email": "me@johnpbloch.com"
+                }
+            ],
+            "description": "A custom installer to handle deploying WordPress with composer",
+            "keywords": [
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/johnpbloch/wordpress-core-installer/issues",
+                "source": "https://github.com/johnpbloch/wordpress-core-installer/tree/master"
+            },
+            "time": "2020-04-16T21:44:57+00:00"
+        },
+        {
+            "name": "madcoda/php-youtube-api",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/madcoda/php-youtube-api.git",
+                "reference": "84bc7f40a616f45d4ba3cdd499a8e67df6d02612"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/madcoda/php-youtube-api/zipball/84bc7f40a616f45d4ba3cdd499a8e67df6d02612",
+                "reference": "84bc7f40a616f45d4ba3cdd499a8e67df6d02612",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.7"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Madcoda\\Youtube\\": "src"
+                },
+                "classmap": [
+                    "src/compat.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Madcoda",
+                    "email": "jason@madcoda.com"
+                }
+            ],
+            "description": "PHP wrapper for the Youtube Data API v3",
+            "keywords": [
+                "api",
+                "madcoda",
+                "video",
+                "youtube"
+            ],
+            "support": {
+                "email": "jason@madcoda.com",
+                "issues": "https://github.com/madcoda/php-youtube-api/issues",
+                "source": "https://github.com/madcoda/php-youtube-api/tree/master"
+            },
+            "time": "2021-09-06T18:55:50+00:00"
+        },
+        {
+            "name": "monolog/monolog",
+            "version": "2.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seldaek/monolog.git",
+                "reference": "f259e2b15fb95494c83f52d3caad003bbf5ffaa1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/f259e2b15fb95494c83f52d3caad003bbf5ffaa1",
+                "reference": "f259e2b15fb95494c83f52d3caad003bbf5ffaa1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2",
+                "psr/log": "^1.0.1 || ^2.0 || ^3.0"
+            },
+            "provide": {
+                "psr/log-implementation": "1.0.0 || 2.0.0 || 3.0.0"
+            },
+            "require-dev": {
+                "aws/aws-sdk-php": "^2.4.9 || ^3.0",
+                "doctrine/couchdb": "~1.0@dev",
+                "elasticsearch/elasticsearch": "^7 || ^8",
+                "ext-json": "*",
+                "graylog2/gelf-php": "^1.4.2 || ^2@dev",
+                "guzzlehttp/guzzle": "^7.4",
+                "guzzlehttp/psr7": "^2.2",
+                "mongodb/mongodb": "^1.8",
+                "php-amqplib/php-amqplib": "~2.4 || ^3",
+                "phpspec/prophecy": "^1.15",
+                "phpstan/phpstan": "^0.12.91",
+                "phpunit/phpunit": "^8.5.14",
+                "predis/predis": "^1.1 || ^2.0",
+                "rollbar/rollbar": "^1.3 || ^2 || ^3",
+                "ruflin/elastica": "^7",
+                "swiftmailer/swiftmailer": "^5.3|^6.0",
+                "symfony/mailer": "^5.4 || ^6",
+                "symfony/mime": "^5.4 || ^6"
+            },
+            "suggest": {
+                "aws/aws-sdk-php": "Allow sending log messages to AWS services like DynamoDB",
+                "doctrine/couchdb": "Allow sending log messages to a CouchDB server",
+                "elasticsearch/elasticsearch": "Allow sending log messages to an Elasticsearch server via official client",
+                "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
+                "ext-curl": "Required to send log messages using the IFTTTHandler, the LogglyHandler, the SendGridHandler, the SlackWebhookHandler or the TelegramBotHandler",
+                "ext-mbstring": "Allow to work properly with unicode symbols",
+                "ext-mongodb": "Allow sending log messages to a MongoDB server (via driver)",
+                "ext-openssl": "Required to send log messages using SSL",
+                "ext-sockets": "Allow sending log messages to a Syslog server (via UDP driver)",
+                "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
+                "mongodb/mongodb": "Allow sending log messages to a MongoDB server (via library)",
+                "php-amqplib/php-amqplib": "Allow sending log messages to an AMQP server using php-amqplib",
+                "rollbar/rollbar": "Allow sending log messages to Rollbar",
+                "ruflin/elastica": "Allow sending log messages to an Elastic Search server"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Monolog\\": "src/Monolog"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "https://seld.be"
+                }
+            ],
+            "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
+            "homepage": "https://github.com/Seldaek/monolog",
+            "keywords": [
+                "log",
+                "logging",
+                "psr-3"
+            ],
+            "support": {
+                "issues": "https://github.com/Seldaek/monolog/issues",
+                "source": "https://github.com/Seldaek/monolog/tree/2.x"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/Seldaek",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/monolog/monolog",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2023-02-06T13:44:46+00:00"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "d49695b909c3b7628b6289db5479a1c204601f11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/d49695b909c3b7628b6289db5479a1c204601f11",
+                "reference": "d49695b909c3b7628b6289db5479a1c204601f11",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/log/tree/1.1.4"
+            },
+            "time": "2021-05-03T11:20:27+00:00"
+        },
+        {
+            "name": "roots/soil",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/roots/soil.git",
+                "reference": "e8e15c29f01414f86610445be8f7274b8b9a73b8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/roots/soil/zipball/e8e15c29f01414f86610445be8f7274b8b9a73b8",
+                "reference": "e8e15c29f01414f86610445be8f7274b8b9a73b8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "brain/monkey": "^2.5",
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
+                "mockery/mockery": "^1.3 | ^1.4",
+                "phpcompatibility/php-compatibility": "^9.3",
+                "phpunit/phpunit": "<= 9.3",
+                "squizlabs/php_codesniffer": "^3.5",
+                "wp-coding-standards/wpcs": "^2.3"
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "psr-4": {
+                    "Roots\\Soil\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ben Word",
+                    "email": "ben@benword.com",
+                    "homepage": "https://github.com/retlehs"
+                },
+                {
+                    "name": "Scott Walkinshaw",
+                    "email": "scott.walkinshaw@gmail.com",
+                    "homepage": "https://github.com/swalkinshaw"
+                },
+                {
+                    "name": "QWp6t",
+                    "email": "craig@roots.io",
+                    "homepage": "https://github.com/qwp6t"
+                }
+            ],
+            "description": "A WordPress plugin which contains a collection of modules to apply theme-agnostic front-end modifications",
+            "homepage": "https://roots.io/plugins/soil/",
+            "keywords": [
+                "wordpress"
+            ],
+            "support": {
+                "forum": "https://discourse.roots.io/",
+                "issues": "https://github.com/roots/soil/issues",
+                "source": "https://github.com/roots/soil/tree/4.1.1"
+            },
+            "funding": [
+                {
+                    "url": "https://roots.io/plugins/soil/",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.patreon.com/rootsdev",
+                    "type": "patreon"
+                }
+            ],
+            "time": "2022-08-01T17:32:31+00:00"
+        },
+        {
+            "name": "vimeo/vimeo-api",
+            "version": "2.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vimeo/vimeo.php.git",
+                "reference": "fe9b1aa22036da8768111cfda1902b23e516460e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vimeo/vimeo.php/zipball/fe9b1aa22036da8768111cfda1902b23e516460e",
+                "reference": "fe9b1aa22036da8768111cfda1902b23e516460e",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "php-coveralls/php-coveralls": "^1.0",
+                "phpunit/phpunit": "^4.8 || ^6.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Vimeo\\": "src/Vimeo"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Vimeo",
+                    "homepage": "http://vimeo.com"
+                }
+            ],
+            "description": "Official PHP library for the Vimeo API.",
+            "homepage": "https://github.com/vimeo/vimeo.php",
+            "keywords": [
+                "video",
+                "vimeo"
+            ],
+            "support": {
+                "issues": "https://github.com/vimeo/vimeo.php/issues",
+                "source": "https://github.com/vimeo/vimeo.php/tree/master"
+            },
+            "time": "2018-08-27T13:36:11+00:00"
+        },
+        {
+            "name": "wp-media/wp-rocket",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wp-media/wp-rocket.git",
+                "reference": "0015d58087695811bf42138eba9dd914741a9519"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wp-media/wp-rocket/zipball/0015d58087695811bf42138eba9dd914741a9519",
+                "reference": "0015d58087695811bf42138eba9dd914741a9519",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0",
+                "monolog/monolog": "^1.0 || ^2.0",
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "brain/monkey": "^2.0",
+                "coenjacobs/mozart": "^0.7",
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
+                "league/container": "^3.3",
+                "mikey179/vfsstream": "1.6.9",
+                "mnsami/composer-custom-directory-installer": "^2.0",
+                "mobiledetect/mobiledetectlib": "^2.8",
+                "php": "^7 || ^8",
+                "phpcompatibility/phpcompatibility-wp": "^2.0",
+                "phpstan/phpstan": "^0.12",
+                "phpunit/phpunit": "^7.5 || ^8 || ^9",
+                "psr/container": "1.0.0",
+                "roave/security-advisories": "dev-master",
+                "szepeviktor/phpstan-wordpress": "^0.7.0",
+                "woocommerce/action-scheduler": "^3.4",
+                "wp-coding-standards/wpcs": "^2",
+                "wp-media/background-processing": "^1.3",
+                "wp-media/phpunit": "^3.0.1",
+                "wp-media/rocket-lazyload-common": "^3.0",
+                "wp-media/wp-imagify-partner": "^1.0",
+                "wpackagist-plugin/amp": "^1.1.4",
+                "wpackagist-plugin/hummingbird-performance": "2.0.1",
+                "wpackagist-plugin/jetpack": "9.3.2",
+                "wpackagist-plugin/pdf-embedder": "^4.6",
+                "wpackagist-plugin/simple-custom-css": "^4.0.3",
+                "wpackagist-plugin/spinupwp": "^1.1",
+                "wpackagist-plugin/woocommerce": "^5.3",
+                "wpackagist-plugin/wp-smushit": "^3.0"
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "extra": {
+                "installer-paths": {
+                    "./inc/Dependencies/ActionScheduler/": [
+                        "woocommerce/action-scheduler"
+                    ],
+                    "vendor/{$vendor}/{$name}/": [
+                        "type:wordpress-plugin"
+                    ]
+                },
+                "mozart": {
+                    "dep_namespace": "WP_Rocket\\Dependencies\\",
+                    "dep_directory": "/inc/Dependencies/",
+                    "classmap_directory": "/inc/classes/dependencies/",
+                    "classmap_prefix": "WP_Rocket_",
+                    "packages": [
+                        "mobiledetect/mobiledetectlib",
+                        "wp-media/background-processing",
+                        "wp-media/rocket-lazyload-common",
+                        "wp-media/wp-imagify-partner",
+                        "league/container"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "WP_Rocket\\": "inc/",
+                    "WPMedia\\Cloudflare\\": "inc/Addon/Cloudflare/"
+                },
+                "classmap": [
+                    "inc/classes",
+                    "inc/vendors/classes",
+                    "inc/deprecated"
+                ],
+                "exclude-from-classmap": [
+                    "inc/vendors/classes/class-rocket-mobile-detect.php",
+                    "inc/classes/class-wp-rocket-requirements-check.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "WP Media",
+                    "email": "contact@wp-media.me",
+                    "homepage": "https://wp-media.me"
+                }
+            ],
+            "description": "Performance optimization plugin for WordPress",
+            "homepage": "https://wp-rocket.me",
+            "keywords": [
+                "cache",
+                "lazyload",
+                "minification",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/wp-media/wp-rocket/issues",
+                "source": "https://github.com/wp-media/wp-rocket"
+            },
+            "time": "2023-03-06T16:46:30+00:00"
+        },
+        {
+            "name": "wp-sync-db/wp-sync-db",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wp-sync-db/wp-sync-db.git",
+                "reference": "575aef7cc5fa005d0c104a83426d91435ebd5b8b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wp-sync-db/wp-sync-db/zipball/575aef7cc5fa005d0c104a83426d91435ebd5b8b",
+                "reference": "575aef7cc5fa005d0c104a83426d91435ebd5b8b",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0.6"
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "WP Sync DB eliminates the manual work of migrating a WP database.",
+            "homepage": "https://github.com/wp-sync-db/wp-sync-db",
+            "keywords": [
+                "db",
+                "plugin",
+                "wordpress",
+                "wp-sync-db"
+            ],
+            "support": {
+                "issues": "https://github.com/wp-sync-db/wp-sync-db/issues",
+                "source": "https://github.com/wp-sync-db/wp-sync-db/tree/master"
+            },
+            "time": "2018-08-07T15:10:28+00:00"
+        },
+        {
+            "name": "wp-sync-db/wp-sync-db-media-files",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wp-sync-db/wp-sync-db-media-files.git",
+                "reference": "cebf64eb528532d627284353278b284bb12e7ef1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wp-sync-db/wp-sync-db-media-files/zipball/cebf64eb528532d627284353278b284bb12e7ef1",
+                "reference": "cebf64eb528532d627284353278b284bb12e7ef1",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0.6"
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "WP Sync DB Media File Addon for WP Sync DB",
+            "homepage": "https://github.com/wp-sync-db/wp-sync-db-media-files",
+            "keywords": [
+                "media",
+                "plugin",
+                "wordpress",
+                "wp-sync-db"
+            ],
+            "support": {
+                "issues": "https://github.com/wp-sync-db/wp-sync-db-media-files/issues",
+                "source": "https://github.com/wp-sync-db/wp-sync-db-media-files/tree/master"
+            },
+            "time": "2016-03-07T16:34:12+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/bu-versions",
+            "version": "0.7.8",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/bu-versions/",
+                "reference": "tags/0.7.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/bu-versions.0.7.8.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/bu-versions/"
+        },
+        {
+            "name": "wpackagist-plugin/classic-editor",
+            "version": "1.6.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/classic-editor/",
+                "reference": "tags/1.6.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/classic-editor.1.6.2.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/classic-editor/"
+        },
+        {
+            "name": "wpackagist-plugin/duplicate-post",
+            "version": "4.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/duplicate-post/",
+                "reference": "tags/4.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/duplicate-post.4.5.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/duplicate-post/"
+        },
+        {
+            "name": "wpackagist-plugin/imagify",
+            "version": "2.1.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/imagify/",
+                "reference": "tags/2.1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/imagify.2.1.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/imagify/"
+        },
+        {
+            "name": "wpackagist-plugin/public-post-preview",
+            "version": "2.10.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/public-post-preview/",
+                "reference": "tags/2.10.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/public-post-preview.2.10.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/public-post-preview/"
+        },
+        {
+            "name": "wpackagist-plugin/redis-cache",
+            "version": "2.2.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/redis-cache/",
+                "reference": "tags/2.2.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/redis-cache.2.2.4.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/redis-cache/"
+        },
+        {
+            "name": "wpackagist-plugin/stream",
+            "version": "3.9.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/stream/",
+                "reference": "tags/3.9.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/stream.3.9.2.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/stream/"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "kint-php/kint",
+            "version": "2.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kint-php/kint.git",
+                "reference": "3b8a243546416d24c777142acd226873494a7735"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kint-php/kint/zipball/3b8a243546416d24c777142acd226873494a7735",
+                "reference": "3b8a243546416d24c777142acd226873494a7735",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.1.2"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.0",
+                "phpunit/phpunit": "^4.0",
+                "symfony/finder": "^2.6"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "init.php"
+                ],
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jonathan Vollebregt",
+                    "homepage": "https://github.com/jnvsor"
+                },
+                {
+                    "name": "Rokas Šleinius",
+                    "homepage": "https://github.com/raveren"
+                },
+                {
+                    "name": "Contributors",
+                    "homepage": "https://github.com/kint-php/kint/graphs/contributors"
+                }
+            ],
+            "description": "Kint - debugging tool for PHP developers",
+            "homepage": "https://kint-php.github.io/kint/",
+            "keywords": [
+                "debug",
+                "kint",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/kint-php/kint/issues",
+                "source": "https://github.com/kint-php/kint/tree/2.x"
+            },
+            "time": "2020-07-21T10:02:03+00:00"
+        },
+        {
+            "name": "wp-sync-db/wp-sync-db-cli",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wp-sync-db/wp-sync-db-cli.git",
+                "reference": "e25e4ca98d89599556cc6ef5ce11461403893dd2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wp-sync-db/wp-sync-db-cli/zipball/e25e4ca98d89599556cc6ef5ce11461403893dd2",
+                "reference": "e25e4ca98d89599556cc6ef5ce11461403893dd2",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0.6"
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "WP Sync DB CLI Addon",
+            "homepage": "https://github.com/wp-sync-db/wp-sync-db-cli",
+            "keywords": [
+                "cli",
+                "plugin",
+                "wordpress",
+                "wp-sync-db"
+            ],
+            "support": {
+                "issues": "https://github.com/wp-sync-db/wp-sync-db-cli/issues",
+                "source": "https://github.com/wp-sync-db/wp-sync-db-cli/tree/master"
+            },
+            "time": "2016-03-07T16:34:49+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "wp-sync-db/wp-sync-db": 20,
+        "wp-sync-db/wp-sync-db-media-files": 20,
+        "wp-sync-db/wp-sync-db-cli": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "ext-json": "*"
+    },
+    "platform-dev": [],
+    "platform-overrides": {
+        "php": "7.4"
+    },
+    "plugin-api-version": "2.3.0"
+}

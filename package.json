@@ -1,5 +1,5 @@
 {
-    "name": "giorno-giovanna",
+    "name": "mostly-paper-co",
     "version": "1.0.0",
     "author": "DevAnime <devanimecards@gmail.com>",
     "contributors": [
@@ -17,18 +17,24 @@
         "develop": "webpack --env.NODE_ENV=development",
         "production": "webpack --env.NODE_ENV=production",
         "watch": "yarn develop --watch",
-        "platform-reset": "rm -rf node_modules/@devanime && yarn install --check-files"
+        "platform-reset": "rm -rf node_modules/@devanime && yarn install --check-files",
+        "terserJS": "find $npm_package_theme_directory/assets/scripts -name \"*.js\" | while read fname; do terser \"$fname\" --format comments=all,keep_numbers=true,ecma=2018 --output \"$fname\"; sed -i \"s/\\*\\//&\\n/\" \"$fname\"; sed -i \"/^$/d\" \"$fname\"; done",
+        "prettierJS": "prettier --print-width 100 --trailing-comma none --single-quote true --write $npm_package_theme_directory/assets/scripts/{*.js,**/*.js}",
+        "prettierSCSS": "prettier --print-width 120 --single-quote true --write $npm_package_theme_directory/assets/styles/; replace '{\\n*\\s*}' '{}' $npm_package_theme_directory/assets/styles/ -r --include='*.scss'",
+        "lint": "eslint --config ~/config/eslint.json --fix --ext .js $npm_package_theme_directory/assets/scripts"
     },
     "dependencies": {
-        "@devanime/estarossa.video": "file:./wp-content/plugins/estarossa/video",
-        "@devanime/dio-brando": "./wp-content/themes/dio-brando"
+        "@devanime/dio-brando": "./wp-content/themes/dio-brando",
+        "@devanime/estarossa.video": "file:./wp-content/plugins/estarossa/video"
     },
     "devDependencies": {
         "@devanime/eslint-config": "file:./wp-content/vendor/devanime/eren-yeager/eslint-config",
-        "@devanime/webpack": "file:./wp-content/vendor/devanime/eren-yeager/webpack"
+        "@devanime/webpack": "file:./wp-content/vendor/devanime/eren-yeager/webpack",
+        "prettier": "2.8.4",
+        "terser": "5.16.6"
     },
     "theme": {
-        "directory": "./wp-content/themes/giorno-giovanna",
+        "directory": "./wp-content/themes/mostly-paper-co",
         "localUrl": "{local_url}"
     },
     "eslintConfig": {

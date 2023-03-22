@@ -1,5 +1,5 @@
 {
-    "name": "devanime/kazuto-kirigaya",
+    "name": "devanime/mostly-paper-co",
     "description": "The \"skeleton\" framework to kickstart all new builds.",
     "authors": [
         {
@@ -26,29 +26,32 @@
         "allow-plugins": {
             "johnpbloch/wordpress-core-installer": true,
             "composer/installers": true
+        },
+        "platform": {
+            "php": "7.4"
         }
     },
     "autoload": {
         "psr-4": {
             "Theme\\": "wp-content/themes/dio-brando/lib",
-            "ChildTheme\\": "wp-content/themes/giorno-giovanna/lib"
+            "ChildTheme\\": "wp-content/themes/mostly-paper-co/lib"
         }
     },
     "require": {
+        "devanime/devanime": "*",
+        "devanime/advanced-custom-fields-pro": "*",
+        "devanime/cms-page-order": "*",
+        "devanime/dio-brando": "*",
+        "devanime/eren-yeager": "*",
+        "devanime/estarossa": "*",
+        "devanime/gravityforms": "*",
+        "devanime/monkey-d-luffy": "*",
+        "devanime/roronoa-zoro": "*",
+        "devanime/satoru-gojo": "*",
+        "devanime/wordpress-seo-premium": "*",
+        "devanime/wp-image": "*",
         "johnpbloch/wordpress": "*",
         "roots/soil": "*",
-        "devanime/advanced-custom-fields-pro": "dev-master",
-        "devanime/devanime": "dev-master",
-        "devanime/cms-page-order": "dev-master",
-        "devanime/gravityforms": "dev-master",
-        "devanime/dio-brando": "dev-master",
-        "devanime/satoru-gojo": "dev-master",
-        "devanime/eren-yeagar": "dev-master",
-        "devanime/estarossa": "dev-master",
-        "devanime/roronoa-zoro": "dev-master",
-        "devanime/black-sword-shusui": "dev-master",
-        "devanime/wordpress-seo-premium": "dev-master",
-        "devanime/wp-image": "dev-master",
         "wp-media/wp-rocket": "*",
         "wp-sync-db/wp-sync-db": "dev-master",
         "wp-sync-db/wp-sync-db-media-files": "dev-master",
@@ -58,13 +61,14 @@
         "wpackagist-plugin/imagify": "*",
         "wpackagist-plugin/public-post-preview": "*",
         "wpackagist-plugin/redis-cache": "*",
-        "wpackagist-plugin/stream": "*"
+        "wpackagist-plugin/stream": "*",
+        "ext-json": "*"
     },
     "require-dev": {
         "kint-php/kint": "^2.0",
-        "wp-sync-db/wp-sync-db-cli": "dev-master",
-        "devanime/giorno-giovanna": "dev-master"
+        "wp-sync-db/wp-sync-db-cli": "dev-master"
     },
+    "minimum-stability": "dev",
     "extra": {
         "wordpress-install-dir": "wp",
         "kint": {
